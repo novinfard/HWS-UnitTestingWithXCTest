@@ -15,6 +15,7 @@
 		CDDA9ED8201BB7DC00F317AF /* UnitTestingWithXCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA9ED7201BB7DC00F317AF /* UnitTestingWithXCTestTests.swift */; };
 		CDDA9EE3201BB7DC00F317AF /* UnitTestingWithXCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA9EE2201BB7DC00F317AF /* UnitTestingWithXCTestUITests.swift */; };
 		CDDA9EF1201BB9B100F317AF /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDDA9EF0201BB9B100F317AF /* plays.txt */; };
+		CDDA9EF3201BBCB500F317AF /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA9EF2201BBCB500F317AF /* PlayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CDDA9EE2201BB7DC00F317AF /* UnitTestingWithXCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingWithXCTestUITests.swift; sourceTree = "<group>"; };
 		CDDA9EE4201BB7DC00F317AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDA9EF0201BB9B100F317AF /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
+		CDDA9EF2201BBCB500F317AF /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				CDDA9EC2201BB7DC00F317AF /* AppDelegate.swift */,
 				CDDA9EC4201BB7DC00F317AF /* ViewController.swift */,
+				CDDA9EF2201BBCB500F317AF /* PlayData.swift */,
 				CDDA9EC6201BB7DC00F317AF /* Main.storyboard */,
 				CDDA9EC9201BB7DC00F317AF /* Assets.xcassets */,
 				CDDA9ECB201BB7DC00F317AF /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDA9EF3201BBCB500F317AF /* PlayData.swift in Sources */,
 				CDDA9EC5201BB7DC00F317AF /* ViewController.swift in Sources */,
 				CDDA9EC3201BB7DC00F317AF /* AppDelegate.swift in Sources */,
 			);
