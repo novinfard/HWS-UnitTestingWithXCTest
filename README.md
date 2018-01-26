@@ -1,4 +1,4 @@
-# UnitTestingWithXCTest
+# Unit Testing With XCTest
 This IOS app demonstrates unit tests and user interface tests using Xcode's built-in testing framework.
 
 ## Main Targets
