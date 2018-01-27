@@ -10,7 +10,7 @@ We are going to answer the questions like these by unit testing:
 
 * Use Cmd+U to apply all unit tests
 
-Future works:
+## Future works
 - Can you write a test that verifies there are 55 table rows when the user filters by words that appear 1000 or more times?
 - Can you write a test that ensures something sensible happens if the cancel button is pressed?
 - Can you write a performance test to ensure applyUserFilter() doesn't get any slower?
