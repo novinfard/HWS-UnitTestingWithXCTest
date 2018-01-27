@@ -32,7 +32,7 @@ class ViewController: UITableViewController {
 			"Cell", for: indexPath)
 		let word = playData.allWords[indexPath.row]
 		cell.textLabel!.text = word
-		cell.detailTextLabel!.text = "\(playData.wordCounts[word]!)"
+		cell.detailTextLabel!.text = "\(playData.wordCounts.count(for: word))"
 		return cell
 	}
 
