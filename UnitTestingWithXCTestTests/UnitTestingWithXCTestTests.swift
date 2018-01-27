@@ -24,6 +24,13 @@ class UnitTestingWithXCTestTests: XCTestCase {
 	
 	func testAllWordsLoaded() {
 		let playdata = PlayData()
-		XCTAssertEqual(playdata.allWords.count, 384001, "allWords was not 384001")
+		XCTAssertEqual(playdata.allWords.count, 18440, "allWords was not 18440")
+	}
+	
+	func testWordCountsAreCorrect() {
+		let playdata = PlayData()
+		XCTAssertEqual(playdata.wordCounts["home"], 174, "Home does not appear 174 times")
+		XCTAssertEqual(playdata.wordCounts["fun"], 4, "Fun does not appear 4 times")
+		XCTAssertEqual(playdata.wordCounts["mortal"], 41, "Mortal does not appear 41 times")
 	}
 }
