@@ -26,6 +26,8 @@ class PlayData {
 				allWords = sorted as! [String]
 			}
 		}
+//		filteredWords = allWords
+		applyUserFilter("swift")
 	}
 	
 	func applyUserFilter(_ input: String) {
